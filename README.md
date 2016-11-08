@@ -10,9 +10,11 @@ This NSCache subclass tries to cache data in memory.
 
 ## How to use
 
-WARCache.shared.fech(url: searchURL) { (data, error) in
-    // cached data or new data from server
-}
+    WARCache.shared.fech(url: searchURL) { (data, error) in
+        // cached data or new data from server
+    }
+    
+  Example included with the project
 
 ## How to test
 - Search with same string more than once. The first time it will take more time as it fetch from server.
